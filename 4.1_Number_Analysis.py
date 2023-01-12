@@ -18,3 +18,18 @@ Out:  Test 1: Odd
       Test 2: Negative
       Test 3: Exclusive
 '''
+
+
+
+print("How Many time zones are in Australia")
+    print("1")
+    print("2")
+    print("3")
+    print("4")
+    Answer = input("Answer: ")
+    if Answer == "3":
+        print("Correct")
+        score += 1
+    else:
+        print("Wrong its 3")
+        score += 0
